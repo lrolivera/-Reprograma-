@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0 ;
+}
+
+html {
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.background {
+    margin-top: 40px;
+    background-image: url("../img/background-larissa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+h1 {
+    font-family: 'Rock Salt', sans-serif ;
+    color: #3357A9;
+}
+
+h2 {
+    font-size: 36px;
+    color: #C4C4C4;
+    margin: 50px;
+}
+
+.text-header {
+    color:  #3357A9 ;
+    font-weight: bold;
+}
+
+.btn-header {
+    background-color:  #3357A9;
+    height: 10%;
+    width: 12%;
+    border-radius: 15px;
+    border:none;
+    align-items: center;
+}
+
+.btn-text {
+    color: #43d9e7;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding: 12px;
+}
+
+.btn-body {
+    background-color:  #3357A9;
+    height: 35%;
+    width: 30%;
+    border-radius: 15px;
+    border: #43d9e7 1px solid;
+    align-items: center;
+}
+
+.caixa-secao-conteudo{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caixa-somente-conteudo{
+    display: flex;
+    margin:25px 55px;
+}
+
+
+.caixa-texto-sobre-mim{
+    margin-bottom: 50px;
+}
+
+.caixa-sobre-mim{
+width: 40%;
+}
+
+.caixa-lista-sobre-mim{
+    width: 40%;
+    margin-left: 30px;
+}
+
+.caixa-item-rede-social {
+    padding: 20px;
+    background-color: #43d9e7 ;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    margin: 40px;
+    border-radius: 40px;
+}
+
+.text-rede-social {
+    color: #3357A9;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding: 12px;
+}
+
+.caixa-mae-rede-social {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color: #C4C4C4;
+    text-align: center;
+    font-size: 16px;
+
+}
