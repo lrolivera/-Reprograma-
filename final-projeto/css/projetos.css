@@ -1,0 +1,81 @@
+.projetos{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff8882;
+    margin: 5% 0;
+}
+.caixaItemProjetos {
+    padding: 20px;
+    background-color: #194350;
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 40px;
+
+}
+
+.caixaItemProjetos img{
+    border-radius: 40px;
+    width: 300px;
+    height: 250px;
+    
+}
+
+
+.caixaProjetosMae {
+    display: flex;
+    justify-content: center;
+}
+
+.textProjeto{
+    padding: 40px;
+}
+
+.btnClick {
+    color: #ff8882;
+    border: 2px solid #ff8882;
+    width: 30%;
+    font-size: 11px;
+    padding: 5px 8px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btnClick:active {
+    background: #9dbeb9;
+}
+
+.btnClick:hover{
+    color:#9dbeb9 ;
+    border: 2px solid #9dbeb9;
+}
+
+/*-------------------- TABLET------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* ------------------- MOBILE--------------------------- */
+
+@media (max-width: 767px) {
+    .caixaProjetosMae {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .caixaItemProjetos {
+        width: 250px;
+        height: 200px;
+    
+    }
+
+    .textProjeto{
+        padding: 20px;
+        font-size: 14px;
+    }
+
+}
+
+
